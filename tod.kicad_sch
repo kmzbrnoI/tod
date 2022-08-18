@@ -2438,7 +2438,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 22.225 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm" (id 2) (at 23.495 118.11 0)
+    (property "Footprint" "TerminalBlock_Euroclamp:MVE252-5-V-2x" (id 2) (at 23.495 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 23.495 118.11 0)
@@ -2845,7 +2845,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 22.225 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm" (id 2) (at 23.495 24.13 0)
+    (property "Footprint" "TerminalBlock_Euroclamp:MVE252-5-V-2x" (id 2) (at 23.495 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 23.495 24.13 0)
@@ -3281,13 +3281,13 @@
       (reference "D14") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/d0746bea-04cf-47f9-8742-bbc0cea547a0"
-      (reference "J1") (unit 1) (value "Conn_01x04") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm")
+      (reference "J1") (unit 1) (value "Conn_01x04") (footprint "TerminalBlock_Euroclamp:MVE252-5-V-2x")
     )
     (path "/6caf5573-ee2b-4bb3-ae2c-0627f7e24055"
       (reference "J2") (unit 1) (value "Conn_01x03") (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal")
     )
     (path "/80e68ac6-e437-4b3b-af1e-59dcd574c455"
-      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm")
+      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "TerminalBlock_Euroclamp:MVE252-5-V-2x")
     )
     (path "/80ba5ec6-7c03-4901-8dce-a7ca8c577c35"
       (reference "J4") (unit 1) (value "Conn_01x03") (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal")
