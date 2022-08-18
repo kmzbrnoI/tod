@@ -217,6 +217,21 @@
     )
   )
 
+  (footprint "kikit:NPTH" (layer "F.Cu")
+    (tedit 618E7E16) (tstamp 19bf5b31-1392-4642-be75-320a381f42b9)
+    (at 114.554 71.882)
+    (attr through_hole)
+    (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp ed66b2bd-525b-4a6c-8f66-c39b0962fe67)
+    )
+    (fp_text value "NPTH" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 0a17da22-e607-4084-88aa-1b2fc0042bb6)
+    )
+    (pad "" np_thru_hole circle locked (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask) (tstamp 6b8dc147-bd4f-4f69-9b41-ab44ad580b3b))
+  )
+
   (footprint "TerminalBlock_Euroclamp:MVE252-5-V-2x" (layer "F.Cu")
     (tedit 0) (tstamp 1ea93a92-cffb-4b44-a555-3e365418835d)
     (at 165.5 68.606 180)
@@ -1145,6 +1160,21 @@
     (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp b26d0ed7-64b3-4582-8fdc-28704ca9ab19))
     (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 254b8367-01a1-4100-87ed-28f9983a49c5))
     (pad "1" thru_hole circle (at 0 0) (size 6.4 6.4) (drill 3.2) (layers *.Cu *.Mask) (tstamp d7a6dcbe-4941-4453-be26-d97595c59e9d))
+  )
+
+  (footprint "kikit:NPTH" (layer "F.Cu")
+    (tedit 618E7E16) (tstamp f07e21fc-407e-45fa-b9d2-a2170c419726)
+    (at 182.88 109.728)
+    (attr through_hole)
+    (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 01bb948a-9a98-407d-8d8b-53639380fc29)
+    )
+    (fp_text value "NPTH" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 00726092-7ea4-4fe4-a919-51e1458f92b0)
+    )
+    (pad "" np_thru_hole circle locked (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask) (tstamp d3d5931d-ee94-406b-8931-c9c999e2a57e))
   )
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" (layer "F.Cu")
