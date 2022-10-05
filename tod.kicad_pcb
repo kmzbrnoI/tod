@@ -3315,7 +3315,7 @@
   (gr_text "K3" (at 168 75.5 180) (layer "F.SilkS") (tstamp 76923057-b903-4943-9a76-140d96ffbb10)
     (effects (font (size 2 2) (thickness 0.15)))
   )
-  (gr_text "v1.0\nJH KMŽ Brno I 2022" (at 167.75 88.75) (layer "F.SilkS") (tstamp 777a1310-cbe0-48d3-81f1-8a5dac4ff0ed)
+  (gr_text "v1.1\nJH KMŽ Brno I 2022" (at 167.75 88.75) (layer "F.SilkS") (tstamp 777a1310-cbe0-48d3-81f1-8a5dac4ff0ed)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (gr_text "K" (at 149 67.25) (layer "F.SilkS") (tstamp 85e04736-5ffe-420e-a2b2-8314450f7163)
