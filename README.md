@@ -8,7 +8,8 @@ Basic features:
 * Galvanically separated outputs
 * Section occupied = output grounded
 * No special power supply required
-* Maximum track current 3 A
+* Maximum track current: 3 A continuous without passive cooler,
+  5 A continuous with passive cooler.
 * Could be divided into pairs with separated J&K
 * Easily automatically-mounted-parts via JlcPcb
 
