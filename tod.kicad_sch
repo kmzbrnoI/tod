@@ -2278,7 +2278,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b0c5a36-a036-49c9-bbc5-b1be00fdcefe)
   )
-  (text "Probably\nnot fit" (at 129.54 71.755 180)
+  (text "Do not fit" (at 129.54 71.755 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5a6a37f9-3632-48b8-a39c-678f284b46f7)
   )
