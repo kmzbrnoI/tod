@@ -17,7 +17,7 @@ This repository contains schematics & PCB layout of TOD PCB.
 
 ## Design
 
-Schematics & PCB are designed in KiCad 6.
+Schematics & PCB are designed in KiCad 7.
 
 ## Production
 
