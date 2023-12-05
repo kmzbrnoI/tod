@@ -1839,7 +1839,7 @@
     (uuid 560b16a4-303f-4bcf-b92c-50b6e0083910)
   )
   (polyline (pts (xy 146.05 13.97) (xy 146.05 184.785))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid 566b992e-5568-4dc3-b707-9132797c7f1f)
   )
 
@@ -2336,14 +2336,6 @@
     (uuid ffbe3ba7-7c9b-4ce0-b1d6-f11ee7167b08)
   )
 
-  (text "Do not fit" (at 129.54 165.735 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0b0c5a36-a036-49c9-bbc5-b1be00fdcefe)
-  )
-  (text "Do not fit" (at 129.54 71.755 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5a6a37f9-3632-48b8-a39c-678f284b46f7)
-  )
   (text "Up to ~2.5 W\nheat loss!" (at 31.242 43.688 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8197ada8-080e-4380-bed5-346dfeee8fb5)
@@ -2360,14 +2352,6 @@
     (at 123.19 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a5aedfd1-b761-43dd-97d6-eff752d70d30)
-  )
-  (text "Do not fit" (at 129.54 122.555 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e894905c-3dc2-4ce1-9725-4b0f5717870d)
-  )
-  (text "Do not fit" (at 129.54 29.21 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ea9978ab-7b73-4822-9e43-386bc771683b)
   )
 
   (label "K1" (at 29.21 26.67 0) (fields_autoplaced)
@@ -2525,8 +2509,8 @@
     (property "JLCPCB_IGNORE" "true" (at 116.84 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b954a60-bebb-4687-ace7-c5da4cf63ac0))
-    (pin "2" (uuid 9deb5748-2ad6-43c4-8c8d-22e40816bc48))
+    (pin "1" (uuid 6a8c42e3-aa58-4857-8950-e2abcff1e8b4))
+    (pin "2" (uuid df3bb43e-1771-40b3-b756-f46e70ac9409))
     (instances
       (project "tod"
         (path "/73f73ec8-7a6b-4609-bf3f-3af177234f13"
@@ -2938,8 +2922,8 @@
     (property "JLCPCB_IGNORE" "true" (at 116.84 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 786db28a-3d4c-4d3a-864c-9a5e2472f97a))
-    (pin "2" (uuid f9b88230-d14b-44e2-8c07-5d37afaf92d3))
+    (pin "1" (uuid fcc5e0c9-82ea-4404-98ba-cb22817c294b))
+    (pin "2" (uuid afc156a9-a8a6-4139-9b44-aee4244aa88c))
     (instances
       (project "tod"
         (path "/73f73ec8-7a6b-4609-bf3f-3af177234f13"
@@ -3885,7 +3869,7 @@
   )
 
   (symbol (lib_id "Diode:1N5819") (at 131.445 125.73 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d89b6be6-b42f-4efa-a68b-c969e494e8e3)
     (property "Reference" "D9" (at 129.54 124.46 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3917,7 +3901,7 @@
   )
 
   (symbol (lib_id "Diode:1N5819") (at 131.445 74.93 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid da8a2034-667d-48c4-a4e0-53cfc24a0fc2)
     (property "Reference" "D6" (at 129.54 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3980,7 +3964,7 @@
   )
 
   (symbol (lib_id "Diode:1N5819") (at 131.445 32.385 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid de7ecc79-c923-41cd-8cfe-265ffc482868)
     (property "Reference" "D3" (at 129.54 31.115 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4094,7 +4078,7 @@
   )
 
   (symbol (lib_id "Diode:1N5819") (at 131.445 168.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e811b6f1-5cb0-4276-b615-ae41f7556f6e)
     (property "Reference" "D13" (at 129.54 167.64 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4233,8 +4217,8 @@
     (property "JLCPCB_IGNORE" "true" (at 116.84 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06d74cd6-ba6c-4f25-b924-37d5b65cba6f))
-    (pin "2" (uuid 3f119de9-30ff-4afe-88f7-55e2a8f8e96e))
+    (pin "1" (uuid 86ab8c2f-fb87-4f70-946a-444cf9b147ce))
+    (pin "2" (uuid a499878c-9e55-41bc-8ee2-bca7e6285e8e))
     (instances
       (project "tod"
         (path "/73f73ec8-7a6b-4609-bf3f-3af177234f13"
@@ -4265,8 +4249,8 @@
     (property "JLCPCB_IGNORE" "true" (at 116.84 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc63750d-b6fb-4b9e-93f3-640e55eb5022))
-    (pin "2" (uuid 7da68d85-10e2-4353-bffb-1a12dd4b9dfa))
+    (pin "1" (uuid 6cc4fd57-e6cd-4ac5-acb5-7fd72a7ee736))
+    (pin "2" (uuid 30b1c286-7eb7-4803-9447-a7c1098eceec))
     (instances
       (project "tod"
         (path "/73f73ec8-7a6b-4609-bf3f-3af177234f13"
