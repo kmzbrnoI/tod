@@ -2353,6 +2353,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a5aedfd1-b761-43dd-97d6-eff752d70d30)
   )
+  (text "D2, D7, D10, D14\n30 mcd @ 20 mA is ok\nA little bit more is better."
+    (at 280.035 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c7f34335-d6a7-4314-967a-f1b91af1182a)
+  )
+  (text "C2, C4, C6, C8 cannot be ceramic\nbecause of acoustic noise."
+    (at 280.035 52.705 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c8611b87-cc6e-4986-893e-8ae77aa6aa3d)
+  )
 
   (label "K1" (at 29.21 26.67 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
