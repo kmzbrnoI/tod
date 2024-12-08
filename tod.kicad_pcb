@@ -193,7 +193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -217,7 +217,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -241,7 +241,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/44478cca-07ba-4846-a4a1-bc882480a145")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -442,7 +444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -466,7 +468,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -490,7 +492,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e457ec05-dd20-4324-830b-75c157bcb151")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -764,7 +768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Euroclamp:MVE252-5-V-2x"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -788,7 +792,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -812,7 +816,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/80e68ac6-e437-4b3b-af1e-59dcd574c455")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1469,7 +1475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1493,7 +1499,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1505,7 +1511,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/a8f88312-c65b-4cfa-8110-8aa852d2711d")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -1731,7 +1739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1743,7 +1751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1755,7 +1763,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1779,7 +1787,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/3226679c-742b-461a-9f16-9b032f208180")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2013,7 +2023,7 @@
 				)
 			)
 		)
-		(property "Value" "GBU8*"
+		(property "Value" "GBU8D-DC"
 			(at 7.1 -2.5 180)
 			(layer "F.Fab")
 			(uuid "d1306a66-5664-41c8-83c2-020cd7f558e8")
@@ -2024,7 +2034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_GBU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2036,7 +2046,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88656/gbu8a.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2048,7 +2058,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-Phase Bridge Rectifier, 70V Vrms, 8.0A If, GBU package"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2072,7 +2082,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Diode*Bridge*Vishay*GBU*")
 		(path "/dd656c6e-6d0c-469a-a73a-e6d91fe0eae3")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2358,7 +2370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2382,7 +2394,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2418,7 +2430,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/f24975cc-4930-4961-83d7-50e6801259b2")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3736,7 +3750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3760,7 +3774,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3772,7 +3786,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/6dae2305-bf80-4b95-9d15-95773efe6150")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -3845,7 +3861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3869,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3893,7 +3909,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e908274b-6b74-49eb-b9ae-795502016f67")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4095,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4119,7 +4137,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4131,7 +4149,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/e126d598-8ad3-4c3f-86a5-641c2ac0698e")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -4204,7 +4224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4228,7 +4248,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4240,7 +4260,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/c1e5ce2d-b3b8-4664-8b23-71e1f54cf808")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -4466,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4490,7 +4512,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4502,7 +4524,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/76af5cc3-ad05-4e62-8352-b02f270b8490")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -4728,7 +4752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4752,7 +4776,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4788,7 +4812,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0c944ec7-adc8-4223-8932-ae3fe235f03d")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6105,7 +6131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6117,7 +6143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6129,7 +6155,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6153,7 +6179,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/c6fe17da-b800-4db4-beae-f19cf2aee08d")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6952,7 +6980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6964,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6976,7 +7004,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7000,7 +7028,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/3a15f524-734c-4061-a7d0-e63eac3a287c")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7245,7 +7275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7269,7 +7299,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7305,7 +7335,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/60d53221-7944-40f6-8481-695fcfdc611f")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8622,7 +8654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8646,7 +8678,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8682,7 +8714,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/f24b77e6-aed2-4227-9685-969f1b823e6a")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9999,7 +10033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10023,7 +10057,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10047,7 +10081,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/80ba5ec6-7c03-4901-8dce-a7ca8c577c35")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10774,7 +10810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Euroclamp:MVE252-5-V-2x"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10798,7 +10834,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10822,7 +10858,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/d0746bea-04cf-47f9-8742-bbc0cea547a0")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11479,7 +11517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11503,7 +11541,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11527,7 +11565,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f9eb127e-6aa3-446f-863a-6d72f93a0914")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11729,7 +11769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11753,7 +11793,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11765,7 +11805,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/8bb13ebd-0f12-4a54-9b6c-3de65ff34af9")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -11838,7 +11880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11850,7 +11892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11862,7 +11904,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11886,7 +11928,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/c80063c0-7ebf-4a32-a08b-a8396baa75d6")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12120,7 +12164,7 @@
 				)
 			)
 		)
-		(property "Value" "GBU8*"
+		(property "Value" "GBU8D-DC"
 			(at 7.1 -2.5 180)
 			(layer "F.Fab")
 			(uuid "cbd3e9fe-9668-4ef4-ab12-357f0c2b6e19")
@@ -12131,7 +12175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_GBU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12143,7 +12187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88656/gbu8a.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12155,7 +12199,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-Phase Bridge Rectifier, 70V Vrms, 8.0A If, GBU package"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12179,7 +12223,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Diode*Bridge*Vishay*GBU*")
 		(path "/d3af4f2d-ba54-4187-bdf9-bc31fda5bdec")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12466,7 +12512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12490,7 +12536,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12502,7 +12548,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/fabc5b30-6e01-48d8-b81c-b27d7b1c606f")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -12648,7 +12696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12672,7 +12720,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12696,7 +12744,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/6caf5573-ee2b-4bb3-ae2c-0627f7e24055")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13425,7 +13475,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13449,7 +13499,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13474,7 +13524,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c7861c30-7054-427f-b1e2-1f003c1d4aa4")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13649,7 +13701,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13673,7 +13725,7 @@
 				)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13711,7 +13763,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/f682af87-be0f-4f4a-b2b9-502f5af0a08f")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13928,7 +13982,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13952,7 +14006,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13977,7 +14031,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/54f5c2ae-e7ec-4883-ab5a-237e9f7ba07b")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14152,7 +14208,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14176,7 +14232,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14201,7 +14257,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/f08c1b46-15a3-4269-a58c-f504dad3ff5c")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14376,7 +14434,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14400,7 +14458,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14425,7 +14483,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f69ed3e7-e220-450f-b8ee-329eafed9527")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14600,7 +14660,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14612,7 +14672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14624,7 +14684,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14649,7 +14709,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/e4dc0e27-982f-448c-8d0e-924187e48fdf")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14894,7 +14956,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14906,7 +14968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14918,7 +14980,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14943,7 +15005,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/c44effb3-d30d-40f7-b485-7312d44f90b9")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15188,7 +15252,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15200,7 +15264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15212,7 +15276,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15250,22 +15314,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 46.69 240.69 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "59051023-4b94-4120-9256-7e9a2463b628")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/da8a2034-667d-48c4-a4e0-53cfc24a0fc2")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.9 0.85)
 			(end 1.25 0.85)
@@ -15508,7 +15561,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15520,7 +15573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15532,7 +15585,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15570,22 +15623,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 30.406 224.462 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "40a020c0-040d-412b-aa4a-efff8fcbbb6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/de7ecc79-c923-41cd-8cfe-265ffc482868")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.9 0.85)
 			(end 1.25 0.85)
@@ -15828,7 +15870,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15852,7 +15894,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15877,7 +15919,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5a8b2590-0692-4cb5-901a-cc069ed5e448")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16052,7 +16096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16076,7 +16120,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16101,7 +16145,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ad5e9409-abbd-41d0-a4a7-824ec612606c")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16276,7 +16322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16300,7 +16346,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16325,7 +16371,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/cf8791af-62ca-417b-8de7-a76480cc2bf0")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16500,7 +16548,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16512,7 +16560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16524,7 +16572,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16549,7 +16597,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/c3a8558d-f01a-4bac-b5a4-aed49aee6ffa")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16794,7 +16844,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16818,7 +16868,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16843,7 +16893,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8e5edfaa-d92e-4f2b-bfa0-7c7ac1caf42f")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17018,7 +17070,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17042,7 +17094,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17067,7 +17119,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8780e8f9-d8c0-429f-a54f-7fbc27a24bce")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17242,7 +17296,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17266,7 +17320,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17291,7 +17345,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/2c2dbfe2-7b63-4875-8584-81d036fe441d")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17508,7 +17564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17532,7 +17588,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17557,7 +17613,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6d6b9668-3b9a-4ff0-aa40-e55a051178d8")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17732,7 +17790,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17756,7 +17814,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17781,7 +17839,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/5f9c7570-9169-4c1c-b716-43020f0c5af3")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17998,7 +18058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18022,7 +18082,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18047,7 +18107,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/7daeb502-a780-4f0b-9ac3-74ec66e973e0")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18264,7 +18326,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18288,7 +18350,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18313,7 +18375,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6482a8d5-54ad-47be-8272-081fe112eec4")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18488,7 +18552,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18512,7 +18576,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18537,7 +18601,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/949e12d6-32f4-4bfa-9bdc-0a2dc68d9702")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18712,7 +18778,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18736,7 +18802,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18761,7 +18827,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/19414ea4-a3ff-40d8-8e35-ec2a59c7d79a")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18936,7 +19004,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18960,7 +19028,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18985,7 +19053,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fe2e9d68-b517-4dbc-8297-686bf846d5de")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19160,7 +19230,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19172,7 +19242,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19184,7 +19254,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19209,7 +19279,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/40baa18f-4d3e-4875-84e6-4b047443a5f1")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19454,7 +19526,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19478,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19516,7 +19588,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/90f9421c-8ed6-4be0-9090-9e7e7a7e8673")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19733,7 +19807,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19757,7 +19831,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19782,7 +19856,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/64994cda-3cb9-4459-8e10-18913e72c751")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19957,7 +20033,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19981,7 +20057,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20006,7 +20082,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/03771697-dfea-4597-9909-b3909b334a64")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20181,7 +20259,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20205,7 +20283,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20230,7 +20308,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e8998c6f-de57-4d6e-a850-84703058afc5")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20405,7 +20485,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20429,7 +20509,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20454,7 +20534,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8882029a-a7e2-4b2b-8b48-31c7b86a6a27")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20629,7 +20711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20653,7 +20735,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20678,7 +20760,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1b92e0ae-2d69-44cc-bf04-8b0a083a7cc2")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20853,7 +20937,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20877,7 +20961,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20902,7 +20986,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/78c42f87-2789-4e07-b18d-8f8b5409a989")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21077,7 +21163,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21101,7 +21187,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21126,7 +21212,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b4d0cd47-ee70-4cd4-921c-1bfdb9da9a6f")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21301,7 +21389,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21313,7 +21401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21325,7 +21413,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21363,22 +21451,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 67.056 261.112 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a81a32ed-f2c3-45ba-a058-ac8b59542aef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/d89b6be6-b42f-4efa-a68b-c969e494e8e3")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.9 0.85)
 			(end 1.25 0.85)
@@ -21621,7 +21698,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21645,7 +21722,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21670,7 +21747,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/9cc9712c-24b0-4ea8-a7cd-9c48ce53440e")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21887,7 +21966,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21911,7 +21990,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21936,7 +22015,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/39e79180-1cbd-4d02-9133-6c7d959c0142")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22111,7 +22192,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22135,7 +22216,7 @@
 				)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22173,7 +22254,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/c8e0c03f-1e34-4697-85c0-0106f8c28089")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22390,7 +22473,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22414,7 +22497,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22439,7 +22522,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c967213b-091f-4cee-b2f0-04fb3a6dac61")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22614,7 +22699,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22626,7 +22711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22638,7 +22723,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22676,22 +22761,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 83.053 277.109 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fa6ba67d-39b7-4f3b-853a-6680131049bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/e811b6f1-5cb0-4276-b615-ae41f7556f6e")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.9 0.85)
 			(end 1.25 0.85)
@@ -22934,7 +23008,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22958,7 +23032,7 @@
 				)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22996,7 +23070,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/b76421f0-b15a-45c6-9297-8d336314492c")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23212,7 +23288,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23236,7 +23312,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23261,7 +23337,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0f6c05c2-d577-42fd-b418-e8c7300aab1b")
+		(sheetname "Root")
 		(sheetfile "tod.kicad_sch")
 		(attr smd)
 		(fp_line
