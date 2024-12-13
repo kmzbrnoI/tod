@@ -5475,7 +5475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u/25V"
 			(at 113.919 125.5272 0)
 			(effects
 				(font
@@ -5562,7 +5562,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n/25V"
 			(at 80.01 121.92 0)
 			(effects
 				(font
@@ -6597,7 +6597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u/25V"
 			(at 113.919 168.7072 0)
 			(effects
 				(font
@@ -7851,7 +7851,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n/25V"
 			(at 80.01 27.94 0)
 			(effects
 				(font
@@ -9107,7 +9107,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n/25V"
 			(at 80.01 71.12 0)
 			(effects
 				(font
@@ -10243,7 +10243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u/25V"
 			(at 113.919 31.5472 0)
 			(effects
 				(font
@@ -10331,7 +10331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u/25V"
 			(at 113.919 74.7272 0)
 			(effects
 				(font
@@ -10512,7 +10512,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n/25V"
 			(at 80.01 165.1 0)
 			(effects
 				(font
