@@ -9271,7 +9271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GBU8D-DC"
+		(property "Value" "RS605"
 			(at 53.34 136.525 0)
 			(effects
 				(font
@@ -9531,7 +9531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GBU8D-DC"
+		(property "Value" "RS605"
 			(at 53.34 41.91 0)
 			(effects
 				(font

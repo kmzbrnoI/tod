@@ -2023,7 +2023,7 @@
 				)
 			)
 		)
-		(property "Value" "GBU8D-DC"
+		(property "Value" "RS605"
 			(at 7.1 -2.5 180)
 			(layer "F.Fab")
 			(uuid "d1306a66-5664-41c8-83c2-020cd7f558e8")
@@ -12164,7 +12164,7 @@
 				)
 			)
 		)
-		(property "Value" "GBU8D-DC"
+		(property "Value" "RS605"
 			(at 7.1 -2.5 180)
 			(layer "F.Fab")
 			(uuid "cbd3e9fe-9668-4ef4-ab12-357f0c2b6e19")
